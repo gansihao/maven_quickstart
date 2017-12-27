@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="maven_quickstart">
+    <output-path>$PROJECT_DIR$/classes/artifacts/maven_quickstart</output-path>
+    <root id="archive" name="maven_quickstart.war">
+      <element id="javaee-facet-resources" facet="maven_quickstart/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="maven_quickstart" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
