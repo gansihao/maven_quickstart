@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="weblogic">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../lab_base/weblogic/wlfullclient.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../lab_base/weblogic/wlfullclient.jar!/" />
+    </SOURCES>
+  </library>
+</component>
