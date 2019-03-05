@@ -18,5 +18,6 @@ public class JDK8Feature {
         logger.info(integer2String.apply(string2Integer.apply("890")));
         Function<String, String> back2String = string2Integer.andThen(String::valueOf);
         logger.info(back2String.apply("890"));
+        MyFunction<String, Integer, Long> my = FunctionUtil::from;
     }
 }

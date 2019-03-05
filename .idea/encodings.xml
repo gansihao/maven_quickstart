@@ -2,6 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/keys-photo.properties" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/keys-word.properties" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/不动产登记证明.jpg" charset="GBK" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

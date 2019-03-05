@@ -1,5 +1,6 @@
 package com.excelib.systemcofing;
 
+import com.excelib.interceptor.ControllerInterceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
@@ -8,6 +9,7 @@ import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.converter.StringHttpMessageConverter;
 import org.springframework.web.servlet.config.annotation.ContentNegotiationConfigurer;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 import java.nio.charset.StandardCharsets;
@@ -39,6 +41,9 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
         configurer.favorPathExtension(false);
     }
 
-
-
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+//        registry.addInterceptor(new ControllerInterceptor()).addPathPatterns("/test/**");
+//        super.addInterceptors(registry);
+    }
 }
