@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.xml.parsers.DocumentBuilderFactory;
+
 @Controller
 public class DBController {
 
@@ -18,5 +20,10 @@ public class DBController {
     public String run() {
         service.exe();
         return "success";
+    }
+
+    public String security() {
+//        DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
+        return "security";
     }
 }
