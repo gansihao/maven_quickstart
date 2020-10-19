@@ -98,11 +98,11 @@
     </dependency>
 
     <!--cusor-->
-    <dependency>
-      <groupId>com.oracle</groupId>
-      <artifactId>ojdbc6</artifactId>
-      <version>11.2.0.3</version>
-    </dependency>
+<!--    <dependency>-->
+<!--      <groupId>com.oracle</groupId>-->
+<!--      <artifactId>ojdbc6</artifactId>-->
+<!--      <version>11.2.0.3</version>-->
+<!--    </dependency>-->
 
     <!--textrecognition-->
     <dependency>
@@ -198,7 +198,7 @@
         <version>2.6</version>
         <configuration>
           <webXml>web/WEB-INF/web.xml</webXml>
-          <webappDirectory>web</webappDirectory>
+          <webappDirectory>src/main/webapp</webappDirectory>
           <failOnMissingWebXml>true</failOnMissingWebXml>
         </configuration>
       </plugin>
