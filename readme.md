@@ -22,9 +22,9 @@ druid连接池
 ### 5.1 Annotation(注解)
 
 ​    **@Bean** 申明bean  
-​        PropertySourcesPlaceholderConfigurer 开启占位符  
-​        MultipartResolver 开启文件上传  
-​        HttpMessageConverter 解决乱码问题  
+         PropertySourcesPlaceholderConfigurer 开启占位符  
+         MultipartResolver 开启文件上传  
+         HttpMessageConverter 解决乱码问题  
 ​    **@EnableWebMvc** 开启java config  
 ​    **@ComponentScan** 开启组件扫描  
 ​    **@Configuration** 申明配置类  
