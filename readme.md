@@ -18,7 +18,7 @@
     ```
 ##### 4. [百度AI文字识别](https://ai.baidu.com/) 
 ##### 5. SpringMVC
-    ###### 1. Annotation(注解)
+    1. Annotation(注解)
         - **@Bean** 申明bean
         ``` 
             - PropertySourcesPlaceholderConfigurer 开启占位符
@@ -33,22 +33,22 @@
         - **@PropertySource** 申明使用配置文件
         - **@ControllerAdvice** 控制器通知，用于全局异常处理
            - **@ExceptionHandler** 申明异常处理方法
-    ###### 2. 切面编程
+    2. 切面编程
         - **@EnableAspectJAutoProxy** 开启切面
         - **@Aspect** 申明切面
-    ###### 3. 集成Redis缓存
+    3. 集成Redis缓存
         - **@Cacheable** 申明方法使用缓存
         - **@EnableCaching** 开启缓存
         - **@Bean** CacheManager 申明缓存管理器，用于@Cacheable
-    ###### 4. 集成Druid
+    4. 集成Druid
         - **@Bean** DataSource,使用DruidDataSource数据源
         - **@Bean** StatFilter 开启sql状态监控
         - 注册StatViewServlet 开启监控界面
         - 添加WebStatFilter 开启web页面监控
-    ###### 5. Java Config
+    5. Java Config
         1. 继承WebApplicationInitializer重写onStartup方法可注册Servlet和添加Filter
         2. 使用@Configuration注解类，在类中使用@Bean申明bean
-    ###### 6. 拦截器
+    6. 拦截器
         1. 继承WebMvcConfigurerAdapter重写addInterceptors方法注册拦截器
     
 
